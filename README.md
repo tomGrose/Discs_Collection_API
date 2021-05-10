@@ -26,15 +26,15 @@ If you want to retrieve discs exactly the way they are spelled then see api/disc
 
 #### api/discs/filter GET
 Returns discs based on filter parameters. Discs can be filtered by all 8 of their attributes.
-name: Exact spelling of a disc name
-plastic: The name of the plastic type you want to return discs of. For example "champion"
-disc Type: "putter", "mid", "fairway", "driver"
-difficulty: Integer between and including 0 - 6
-speed: Integer between and including 1 - 14
-glide: Integer between and including 1 - 7
-turn: Integer between and including -5 - 1
-fade: Integer between and including 0 - 5
-company name: "innova", "latitude 64", etc.
+- name: Exact spelling of a disc name. For example "boss"
+- plastic: The name of the plastic type you want to return discs of. For example "champion"
+- disc Type: "putter", "mid", "fairway", "driver"
+- difficulty: Integer between and including 0 - 6
+- speed: Integer between and including 1 - 14
+- glide: Integer between and including 1 - 7
+- turn: Integer between and including -5 - 1
+- fade: Integer between and including 0 - 5
+- company name: "innova", "latitude 64", etc.
 
 #### api/companies GET
 Returns a list of all the companies in the database.
